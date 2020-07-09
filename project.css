@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{
+	height: 655px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.back{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)),url("E:/IT/back.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	height: 450px;
+	width: 80%;
+	margin: auto;
+	border: 5px solid #DDD;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 130px;
+	right: 30px;
+	left: 30px;
+}
+
+.expirt{
+	width: 31.5%;
+	float: left;
+	margin-left: 1%;
+    border: 2px solid #EEE;
+	margin-top: 48px;
+	height: 360px;
+	/*background: rgba(0,0,0,0.1);*/
+}
+
+.expirt :last-child{
+	margin-right: 0px
+}
+
+.expirt .image{
+	border: 2px solid #AAA;
+	border-radius: 50%;
+	width: 120px;
+    height: 120px;
+    margin: auto;
+	margin-top: 20px
+}
+
+.expirt .image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%
+}
+
+.expirt .name{
+	margin: auto;
+	font-family: 'Aclonica';
+	font-size: 28px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold
+}
+.expirt .special{
+	margin: auto;
+	font-family: 'Alatsi';
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.expirt .butt{
+	border: 2px solid #FFF;
+	border-radius: 10px;
+	margin-top: 55px;
+	outline: 0;
+	font-size: 20px;
+	font-family: "Almendra SC";
+	padding: 10px;
+	margin-left: 110px;
+	background-color: transparent;
+	font-weight: bold;
+}
+.expirt .butt a{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.expirt .butt:hover{
+    cursor: pointer;
+	background-color: whitesmoke;
+	color: black
+}
+
+/**********************************************************************/
+
+/*Doctor*/
+
+/*.contain{
+	width: 50%;
+	margin: auto;
+	background: linear-gradient(rgba(0,0,0,0.1));
+	border: 5px solid #DDD;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 130px;
+	right: 30px;
+	left: 30px;
+}*/
+.doctor, .civil, .computer{
+	width: 500px;
+	height: 580px;
+	margin: auto;
+	border: 5px solid darkblue;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	left: 30px;
+	border-radius: 20px;
+	
+}
+
+.doctor .image,
+.civil .image,
+.computer .image{
+	border: 2px solid #AAA;
+	border-radius: 50%;
+	width: 200px;
+    height: 200px;
+    margin: auto;
+	margin-top: 20px
+}
+
+.doctor .image img,
+.civil .image img,
+.computer .image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%
+}
+
+.doctor .name,
+.civil .name,
+.computer .name{
+	margin: auto;
+	font-family: 'Aclonica';
+	font-size: 28px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold
+}
+.doctor .special,
+.civil .special,
+.computer .special{
+	margin: auto;
+	font-family: 'Alatsi';
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.doctor .inform,
+.civil .inform,
+.computer .inform{
+	border: 2px solid darkblue;
+	border-radius: 15px;
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+    font-size: 25px;
+	font-family: "Alatsi";
+}
+
+.country span{
+	font-weight: bold;
+	font-family: 'Aclonica';
+}
+.workingHours span{
+	font-weight: bold;
+	font-family: 'Aclonica';
+}
+.doctor .book,
+.civil .book,
+.computer .book{
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	margin-top: 45px;
+	outline: 0;
+	font-size: 20px;
+	font-family: "Almendra SC";
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 180px;
+	background-color: transparent;
+}
+
+.doctor .book a,
+.civil .book a,
+.computer .book a {
+	text-decoration: none;
+	color: aliceblue
+}
+.doctor .book:hover,
+.civil .book:hover,
+.computer .book:hover{
+	cursor: pointer;
+	background-color: darkblue;
+	color: aliceblue
+}
